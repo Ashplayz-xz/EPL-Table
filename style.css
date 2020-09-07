@@ -1,0 +1,120 @@
+.whole{
+    margin: 10px auto; 
+    width: 900px;
+    padding-top: 16px;
+}
+table{ 
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+
+}
+.top{
+    background-color: rgb(80, 11, 80);
+    color: white;
+    font-size: 1em;
+    font-weight: 900;
+    padding: 5px 5px;
+    display: flex;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: center;
+}
+.season{
+    background-color: aliceblue;
+    font-size: 1em;
+    color: gray;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.year{
+    background-color: aliceblue;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-left:1px solid aliceblue;
+    border-right:1px solid aliceblue;
+    border-bottom:1px solid aliceblue;
+}
+tr{
+    border-bottom:1px solid aliceblue;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    border:1px solid aliceblue;
+}
+.pr{
+    text-align: center;
+}
+.r1{
+    color: grey;
+}
+.b{
+    font-weight: 800;
+}
+.r2{
+    border-left: 4px solid blue;
+    
+}
+.r3{
+    border-left: 4px solid orangered; 
+}
+.r4{
+    border-left: 4px solid green;
+}
+.cr{
+    display: flex;
+    align-items: center;
+}
+.win{
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+    display:inline-block;
+    margin: auto 3px;
+}
+.draw{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(148, 150, 148);
+    border:2px solid rgb(148, 150, 148);
+    border-radius: 50%;
+    display: inline-block;
+    margin:auto 3px;
+}
+.lose{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border:2px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    margin:auto 3px;
+}
+.r5{
+    border-left: 4px solid red;
+}
+.foot1{
+    background-color: rgb(209, 204, 204);
+    border: 1px solid rgb(209, 204, 204);
+    padding:15px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    display:flex;
+}
+.foot2{
+    display:inline-block;
+    width:45%;
+}
+.foot2 p{
+    display:inline-block;
+}
+p{
+    font: 0.8em sans-serif;
+    margin-left: 3px;
+}
